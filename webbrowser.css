@@ -6,6 +6,25 @@ img {
     max-width: 100%;
 }
 
-p {
-    max-width: 30%;
-}
+
+/* TABLET: To kolonner */
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        /* DESKTOP: Tre kolonner */
+        @media (min-width: 1024px) {
+            h1 {
+                font-size: 40px;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
