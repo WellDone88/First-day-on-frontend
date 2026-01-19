@@ -6,3 +6,7 @@ img {
     width: 300px;
     height: 400px;
 }
+
+p {
+    max-width: 30%;
+}
